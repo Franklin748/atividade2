@@ -1,6 +1,6 @@
 import React, {createContext,useState } from 'react'
 
-const CarContext = creatcontex();
+const CarContext = createcontex();
 
 export function CarProvider ( { children } ){
     const [carros, setCarros] = useState ([]);
